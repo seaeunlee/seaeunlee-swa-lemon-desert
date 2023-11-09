@@ -3,7 +3,7 @@
     "routes": [
         {
             "route": "/arm/api/subscriptions/*",
-            "redirect": "/api/subscriptions/"
+            "rewrite": "/api/subscriptions/"
         }
     ]
 }
