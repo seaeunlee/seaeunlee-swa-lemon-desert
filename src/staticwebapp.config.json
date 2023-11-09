@@ -3,7 +3,7 @@
     "routes": [
         {
             "route": "/arm/api/subscriptions/*",
-            "methods": ["PUT"]
+            "redirect": "/api/subscriptions/*"
         }
     ]
 }
