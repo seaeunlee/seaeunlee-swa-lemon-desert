@@ -13,13 +13,6 @@
     <h1>Vanilla JavaScript App</h1>
     <p>Loading content from the API: <b id="subscription">...</b></p>
   </main>
-
-  <script>
-  (async function() {
-      const { subscriptionResponse } = await( await fetch(`/api/subscriptions`)).json();
-      document.querySelector('#subscription').textContent = subscriptionResponse;
-  }());
-  </script>
 </body>
 
 </html>
