@@ -2,8 +2,8 @@
     "trailingSlash": "auto",
     "routes": [
         {
-            "route": "/arm/api/subscriptions/*",
-            "redirect": "/api/subscriptions/*"
+            "route": "/arm/api/subscriptions/:path*",
+            "redirect": "/api/subscriptions/:path*"
         }
     ]
 }
