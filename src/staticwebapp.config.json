@@ -1,0 +1,10 @@
+{
+    "trailingSlash": "auto",
+    "routes": [
+        {
+            "route": "/arm/api/subscriptions/*",
+            "methods": ["PUT"],
+            "statusCode": 200
+        }
+    ]
+}
