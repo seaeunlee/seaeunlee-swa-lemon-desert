@@ -2,6 +2,10 @@
     "trailingSlash": "auto",
     "routes": [
         {
+            "route": "/arm/api/subscriptions/*",
+            "rewrite": "/api/subscriptions/"
+        },
+        {
             "route": "*",
             "statusCode": 404
         }
